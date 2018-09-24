@@ -14,6 +14,7 @@ namespace SmartMenuApp
             Program myProgram = new Program();
             myProgram.Run();
             string mystring = "";
+            string mystring2 = "";
         }
 
         private void Run()
