@@ -16,12 +16,18 @@ namespace SmartMenuLibrary
         {
             int counter = 0;
             string line;
+            char input;
             System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\emil0\source\repos\ProjektProgrammering1(Anders,Kasper,Emil)\programmeringsprojekt\MenuSpecEN.txt");
             while ((line = file.ReadLine()) != null)
             {
                 Console.WriteLine(line);
                 counter++;
             }
+
+            input=char.Parse(Console.ReadLine());
+
+
+
         }
     }
 }
