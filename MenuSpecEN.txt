@@ -1,5 +1,6 @@
-<menutitel>
-<menuvalg-forklaring>
-<menupunkt>;<menu-id>
-<menupunkt>;<menu-id>
-<menupunkt>;<menu-id>
+<My Fantastic Menu>
+<Press menu number or 0 to exit>
+<Do this>;<1>
+<Do that>;<2>
+<Do something>;<3>
+<Get the answer>;<4>
