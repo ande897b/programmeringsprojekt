@@ -1,0 +1,5 @@
+<menutitel>
+<menuvalg-forklaring>
+<menupunkt>;<menu-id>
+<menupunkt>;<menu-id>
+<menupunkt>;<menu-id>
