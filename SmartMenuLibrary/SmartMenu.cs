@@ -66,6 +66,10 @@ namespace SmartMenuLibrary
                             Console.WriteLine(Functions.GetTheAnswerToLifeTheUniverseAndEverything());
                             restart = false;
                         }
+                        else if (input == '0')
+                        {
+                            Environment.Exit(0);
+                        }
                         else
                         {
                             Console.WriteLine("Input proper value");
@@ -108,6 +112,10 @@ namespace SmartMenuLibrary
                         {
                             Console.WriteLine(Functions.GetTheAnswerToLifeTheUniverseAndEverything());
                             restart = false;
+                        }
+                        else if (input =='0')
+                        {
+                            Environment.Exit(0);
                         }
                         else
                         {

@@ -1,6 +1,6 @@
-<Vores Fantastiske Menu>
-<Tryk menunummer eller 0 for at afslutte>
-<Gør Dette>;<1>
-<Gør Hint>;<2>
-<Gør Noget>;<3>
-<Få Svaret til alting>;<4>
+Vores Fantastiske Menu
+1: Goer Dette
+2: Goet Hint
+3: Goer Noget
+4: Faa Svaret til alting
+tryk menunummer + enter for at vaelge menu. tryk 0 for afslutte

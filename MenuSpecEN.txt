@@ -1,6 +1,6 @@
-<My Fantastic Menu>
-<Press menu number or 0 to exit>
-<Do This>;<1>
-<Do that>;<2>
-<Do something>;<3>
-<Get the answer>;<4>
+My Fantastic Menu
+1: Do This
+2: Do That
+3: Do Something
+4: Get the Answer
+Select by typing menu number followed by enter. press 0 to close
