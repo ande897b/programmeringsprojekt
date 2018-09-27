@@ -1,0 +1,6 @@
+<Vores Fantastiske Menu>
+<Tryk menunummer eller 0 for at afslutte>
+<Gør Dette>;<1>
+<Gør Hint>;<2>
+<Gør Noget>;<3>
+<Få Svaret til alting>;<4>

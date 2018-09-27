@@ -1,6 +1,6 @@
 <My Fantastic Menu>
 <Press menu number or 0 to exit>
-<1>;<Do This>
+<Do This>;<1>
 <Do that>;<2>
 <Do something>;<3>
 <Get the answer>;<4>

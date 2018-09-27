@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionLibrary", "Function
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7AEF31A-2017-4257-A834-80B43B3E009A}"
 	ProjectSection(SolutionItems) = preProject
+		MenuSpecDK.txt = MenuSpecDK.txt
 		MenuSpecEN.txt = MenuSpecEN.txt
 	EndProjectSection
 EndProject
