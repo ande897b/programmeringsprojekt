@@ -26,9 +26,9 @@ namespace SmartMenuLibrary
 
             while (menuBool)
             {
-                valgIMenu = char.Parse(Console.ReadLine());
+                valgIMenu = char.Parse(Console.ReadLine());  //Valg mellem Dansk og Engelsk menu
 
-                if (valgIMenu == '1')
+                if (valgIMenu == '1') // engelsk menu valgt
                 {
 
 
@@ -77,7 +77,7 @@ namespace SmartMenuLibrary
                     }
                     menuBool = false;
                 }
-                else if (valgIMenu == '2')
+                else if (valgIMenu == '2') // Dansk menu valgt
                 {
                     // Functions functions = new Functions();
                     System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecDK.txt");
@@ -129,7 +129,7 @@ namespace SmartMenuLibrary
 
                 else
                 {
-                    Console.WriteLine("Input Proper Value");
+                    Console.WriteLine("Input Proper Value"); // Hvis hverken 1 eller 2 er valgt i sprogvalg.
                 }
 
             }
