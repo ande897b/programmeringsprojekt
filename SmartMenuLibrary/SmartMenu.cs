@@ -11,7 +11,8 @@ namespace SmartMenuLibrary
     {
         public void LoadMenu(string path)
         {
-            System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecEN.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader
+                (@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecEN.txt");
         }
         public void Activate()
         {
@@ -28,12 +29,11 @@ namespace SmartMenuLibrary
             {
                 valgIMenu = char.Parse(Console.ReadLine());  //Valg mellem Dansk og Engelsk menu
 
-                if (valgIMenu == '1') // engelsk menu valgt
+                if (valgIMenu == '1') // engelsk menu valgt 
                 {
-
-
-                    // Functions functions = new Functions();
-                    System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecEN.txt");
+                    Console.Clear();
+                    System.IO.StreamReader file = new System.IO.StreamReader
+                        (@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecEN.txt");
                     while ((line = file.ReadLine()) != null)
                     {
                         Console.WriteLine(line);
@@ -45,33 +45,39 @@ namespace SmartMenuLibrary
 
                         if (input == '1')
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.DoThis());
                             restart = false;
                         }
 
                         else if (input == '2')
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.DoThat());
                             restart = false;
                         }
                         else if (input == '3')
                         {
-                            string inputTilDoSomething = Console.ReadLine();
-                            // Functions.DoSomething(inputTilDoSomething);
+                            Console.Clear();
+                            Console.WriteLine("input here:");
+                            string inputTilDoSomething = Console.ReadLine();                            
                             Console.WriteLine(Functions.DoSomething(inputTilDoSomething));
                             restart = false;
                         }
                         else if (input == '4')
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.GetTheAnswerToLifeTheUniverseAndEverything());
                             restart = false;
                         }
                         else if (input == '0')
                         {
+                            Console.Clear();
                             Environment.Exit(0);
                         }
                         else
                         {
+                            Console.Clear();
                             Console.WriteLine("Input proper value");
                         }
                     }
@@ -79,7 +85,7 @@ namespace SmartMenuLibrary
                 }
                 else if (valgIMenu == '2') // Dansk menu valgt
                 {
-                    // Functions functions = new Functions();
+                    Console.Clear();
                     System.IO.StreamReader file = new System.IO.StreamReader(@"C:\Users\Anders\Desktop\gittest\pc1\SmartMenuApp.Code-master\MenuSpecDK.txt");
                     while ((line = file.ReadLine()) != null)
                     {
@@ -91,25 +97,30 @@ namespace SmartMenuLibrary
                         input = char.Parse(Console.ReadLine());
 
                         if (input == '1')
+
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.DoThis());
                             restart = false;
                         }
 
                         else if (input == '2')
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.DoThat());
                             restart = false;
                         }
                         else if (input == '3')
                         {
-                            string inputTilDoSomething = Console.ReadLine();
-                            // Functions.DoSomething(inputTilDoSomething);
+                            Console.Clear();
+                            Console.WriteLine("input her:");
+                            string inputTilDoSomething = Console.ReadLine();                            
                             Console.WriteLine(Functions.DoSomething(inputTilDoSomething));
                             restart = false;
                         }
                         else if (input == '4')
                         {
+                            Console.Clear();
                             Console.WriteLine(Functions.GetTheAnswerToLifeTheUniverseAndEverything());
                             restart = false;
                         }
@@ -119,6 +130,7 @@ namespace SmartMenuLibrary
                         }
                         else
                         {
+                            Console.Clear();
                             Console.WriteLine("Input proper value");
                         }
                     }
